@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirby Therapeutic Massage</title>
+    <link rel="stylesheet" href="C:\Users\100djohnson\house_project\style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container">
+    <div id="new-appointment" class="">
+        <h1 class="bg-dark text-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schedule Your Appointment ~ Kirby Therapeutic Massage</h1>
+
+        <form action="" id="appointmentForm">
+            <div class="row">
+                <div class="col">
+                    <input class="form-control bg-dark text-white" id="Name" name="Name" type="text" placeholder="Name">
+                </div>
+                <div class="col">
+                    <input class="form-control bg-dark text-white" id="DateOfAppointment" name="DateOfAppointment"
+                        type="date" placeholder="Date">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input class="form-control bg-dark text-white" id="TimeOfAppointment" name="TimeOfAppointment"
+                            type="time" placeholder="time">
+                    </div>
+                    <div class="col">
+                        <input class="form-control bg-dark text-white" id="ServicesCompleted" name="ServicesCompleted"
+                            type="text" placeholder="Services">
+                    </div>
+                </div>
+                <button id="create-new-appointment" type="submit"
+                    class="btn btn-primary form-control btn-submit"><b>Schedule Now</b></button>
+        </form> <br>
+    </div>
+    </div>
+    <h1 class="bg-dark text-white text-center">Appointments Scheduled</h1>
+    <div id="app" class="scrollbox">
+    </div>
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="code.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.js"></script>
+</body>
+
+</html>

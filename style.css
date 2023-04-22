@@ -1,0 +1,31 @@
+.scrollbox {
+    overflow: scroll;
+    border-radius: 1rem;
+    scroll-behavior: smooth;
+    height: 500px;
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  body {
+    background-image: url(https://www.bodyworksdayspa.net/wp-content/uploads/sites/14/2018/12/bodyworks-day-spa-relaxing-massage.jpg);
+    background-repeat: space;
+  }
